@@ -20,5 +20,7 @@ from housepriceprediction import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('HouseModelTraining/',views.HouseModelTraining, name='HouseModelTraining'),
-    path('HouseModelPrediction/',views.HouseModelTraining, name='HouseModelPrediction'),  
+    path('HouseModelPrediction/',views.HouseModelPrediction, name='HouseModelPrediction'),
+
+
 ]
